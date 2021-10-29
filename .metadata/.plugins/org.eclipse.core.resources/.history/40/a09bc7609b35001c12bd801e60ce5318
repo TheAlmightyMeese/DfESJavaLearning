@@ -1,0 +1,10 @@
+package com.qa.resources;
+
+public class Tester {
+
+	@Test
+	public void test1() {
+	    fail("Fail");
+	}
+	
+}

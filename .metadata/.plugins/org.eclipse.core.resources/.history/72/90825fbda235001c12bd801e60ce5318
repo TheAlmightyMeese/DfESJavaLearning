@@ -1,0 +1,15 @@
+package com.qa.main;
+
+import com.qa.files.randomfiles;
+
+public class Runner {
+
+ public static void main(String[] args) {
+
+	 System.out.println("I did a thing");
+	
+	 randomfiles.roll();
+	 
+	 
+ 	}
+}

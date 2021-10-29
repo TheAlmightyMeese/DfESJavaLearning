@@ -1,0 +1,10 @@
+package com.qa.garage;
+
+public class VehicleTest {
+
+Vehicle vehicle = new Vehicle;
+
+
+	
+	
+}

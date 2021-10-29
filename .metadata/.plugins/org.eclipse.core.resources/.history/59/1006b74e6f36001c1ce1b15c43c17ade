@@ -1,0 +1,28 @@
+package com.qa.garage;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class VehicleTest {
+
+Vehicle vehicle = new Vehicle("Test", 1, false, "Blank");
+
+@Test
+public void objectTest() {
+assertTrue(vehicle instanceof Vehicle);
+		}
+@Test
+public void getMakeTest() {
+	Vehicle vehicle = new Vehicle("Test", 1, false, "Blank");
+	assertEquals("Match",vehicle.getMake(), "Test");
+}
+
+@Test
+public void setMakeTest() {
+	Vehicle vehicle = new Vehicle("Test", 1, false, "Blank");
+	assertEquals("Match",vehicle.setMake("Other"), "Other");
+}
+
+}

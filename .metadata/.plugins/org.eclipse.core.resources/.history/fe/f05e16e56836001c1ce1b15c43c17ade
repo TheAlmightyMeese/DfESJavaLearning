@@ -1,0 +1,21 @@
+package com.qa.garage;
+
+import static org.junit.Assert.assertTrue;
+
+public class VehicleTest {
+
+	Garage storage = new Garage();
+	
+@Test
+public void objCheck () {
+	assertTrue(storage instanceof Garage, "Object Created");
+}
+
+
+
+
+}
+
+
+
+

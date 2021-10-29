@@ -1,0 +1,7 @@
+package com.qa.exeception;
+
+public class CustomException extends Exception {
+
+	
+	
+}

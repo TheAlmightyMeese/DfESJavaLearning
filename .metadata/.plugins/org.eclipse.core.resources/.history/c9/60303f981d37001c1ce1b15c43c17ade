@@ -1,0 +1,13 @@
+package com.qa.main;
+
+import com.qa.Lambda.Calc;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+	Calc test = new Calc();
+		System.out.println(test.method(3,3,add));
+		
+	}
+}

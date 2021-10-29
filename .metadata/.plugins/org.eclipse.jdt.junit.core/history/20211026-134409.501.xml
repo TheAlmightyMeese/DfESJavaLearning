@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JunitFiveSample" project="JunitVendorMachine" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="samplejunit.JunitFiveSample" time="0.001" displayname="JunitFiveSample" uniqueid="[engine:junit-jupiter]/[class:samplejunit.JunitFiveSample]">
+    <testcase name="test1" classname="samplejunit.JunitFiveSample" time="0.001" displayname="test1()" uniqueid="[engine:junit-jupiter]/[class:samplejunit.JunitFiveSample]/[method:test1()]"/>
+    <testcase name="test2" classname="samplejunit.JunitFiveSample" time="0.0" displayname="test2()" uniqueid="[engine:junit-jupiter]/[class:samplejunit.JunitFiveSample]/[method:test2()]"/>
+  </testsuite>
+</testrun>

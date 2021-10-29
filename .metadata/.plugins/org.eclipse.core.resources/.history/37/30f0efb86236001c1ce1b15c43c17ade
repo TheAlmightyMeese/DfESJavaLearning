@@ -1,0 +1,30 @@
+package vendormachine.users.util;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class WalletTEST {
+
+@BeforeAll
+
+
+@BeforeEach
+
+
+@Test
+public void brandTest(){
+	Stirng brand = "Generic";
+assertTrue(true, brand);
+}
+
+
+@AfterEach
+
+
+@AfterAll
+
+    }
+}

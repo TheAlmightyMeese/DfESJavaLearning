@@ -1,0 +1,15 @@
+package com.qa.main;
+
+import com.qa.enumlist.Dealer;
+
+public class Runner {
+public static void main(String[] args) {
+	
+String deal = Dealer.Pullrank();
+System.out.println(deal);
+
+	
+	
+}
+	
+}

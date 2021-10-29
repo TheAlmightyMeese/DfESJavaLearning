@@ -1,0 +1,17 @@
+package com.qa.main;
+
+import com.qa.enumlist.Dealer;
+
+public class Runner {
+public static void main(String[] args) {
+	
+	Dealer bob = new Dealer();
+	
+System.out.println(bob.Draw());
+
+
+	
+	
+}
+	
+}

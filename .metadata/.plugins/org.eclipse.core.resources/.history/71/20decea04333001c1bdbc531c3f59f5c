@@ -1,0 +1,20 @@
+package com.qa.main;
+
+import com.qa.garage.*;
+
+public class Runner {
+public static void main(String[] args) {
+	
+	Garage storage = new Garage();
+	
+	Vehicle RT30GRT = new Car("BMW", 2000, true, "Black", 3, 160);
+	
+
+	storage.addVehicle(RT30GRT);
+	storage.checkGarage();
+	
+	
+	
+	
+}
+}

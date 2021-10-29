@@ -1,0 +1,19 @@
+package com.qa.main;
+
+import com.qa.exer.Calculator;
+
+public class Runner {
+	
+public static void main(String[] args) {
+	
+}
+	
+	public void Divideby0() {
+		int result = Calculator.calcDiv(3, 30);
+		System.out.println(result);
+	}
+	
+	
+	
+	
+}

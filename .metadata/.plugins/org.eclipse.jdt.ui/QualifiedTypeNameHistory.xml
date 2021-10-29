@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.qa.runner.Dice"/>
+    <fullyQualifiedTypeName name="com.qa.Npc.Player"/>
+    <fullyQualifiedTypeName name="com.qa.Npc.StoryNPC"/>
+    <fullyQualifiedTypeName name="com.qa.Npc.Character"/>
+    <fullyQualifiedTypeName name="com.qa.Npc.NPC"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.qa.garage.Garage"/>
+    <fullyQualifiedTypeName name="com.qa.garage.Vehicle"/>
+    <fullyQualifiedTypeName name="com.qa.garage.Car"/>
+    <fullyQualifiedTypeName name="com.qa.garage.Van"/>
+    <fullyQualifiedTypeName name="com.qa.garage.Motorbike"/>
+    <fullyQualifiedTypeName name="com.qa.resources.Tester"/>
+    <fullyQualifiedTypeName name="com.qa.files.randomfiles"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>

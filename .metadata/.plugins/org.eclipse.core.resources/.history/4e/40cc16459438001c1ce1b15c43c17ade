@@ -1,0 +1,36 @@
+package com.qa.exeception;
+import java.util.Scanner;
+public class CustomException extends Exception {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2981278960668802756L;
+
+	public CustomException(String errorMessage) {
+		super(errorMessage);
+	}
+
+	
+	
+	
+// 	public static int calcDiv() {
+// 	Scanner num1 = new Scanner(System.in);
+// 	System.out.println("Please Enter the first number: ");
+// 	int num1 = num1.next();
+// 	System.out.println("Please Eneter the second Number:  ");
+// 	Scanner num2 = new Scanner(System.in);
+// 	int num2 = num2.nextLine();
+//	int result = num1 / num2;
+//	return result;
+// 	}
+ 	
+ 	
+	  // Import the Scanner classclass Main {public static void main(String[] args) {Scanner myObj = new Scanner(System.in);
+	// Create a Scanner objectSystem.out.println("Enter username");String userName = myObj.nextLine();  	}
+	// Read user inputSystem.out.println("Username is: " + userName);  // Output user input}}
+ 	
+ 	
+ 	
+ 	
+ 	}

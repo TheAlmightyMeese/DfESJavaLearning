@@ -1,0 +1,15 @@
+package com.qa.enumlist;
+
+public class Card{
+
+	
+	enum Card {
+		HEARTS,
+		CLUBS,
+		DIAMONDS,
+		SPADES;
+		
+		
+	}
+	
+}

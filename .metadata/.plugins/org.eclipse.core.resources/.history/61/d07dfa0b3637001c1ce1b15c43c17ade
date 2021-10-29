@@ -1,0 +1,37 @@
+package com.qa.streams;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class Streams {
+public static void main(String[] args) {
+	
+
+	
+	//List<String> names = Arrays.asList("Ed","Reece","Sue","Leon", "Earl");
+	
+	
+//	Given the following List of names, using a stream, have it print "Hello " in front of each name besides "James".
+//	("Michael", "Dean", "James", "Chris")
+	
+	
+	List<String> namesList = Arrays.asList("Micheal","Dean","James","Chris");
+	//List<String> noJList = namesList.stream().filter(e -> e.startsWith("J")).collect(Collectors.toList());
+	
+	List<String> hiList = namesList.stream().filter (e -> !e.contains("James")).map(e -> "Hello " + e ).collect(Collectors.toList());
+	
+	hiList.stream().forEach(e -> System.out.println(e));
+	
+//	List<String> names = Arrays.asList("Michael", "Dean", "James", "Chris");
+//	names.stream()
+//	.forEach(x -> System.out.println("Hello " + x));
+
+	
+	
+	
+}
+
+}
+

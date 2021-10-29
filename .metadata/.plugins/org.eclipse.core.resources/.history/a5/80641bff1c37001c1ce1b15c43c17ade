@@ -1,0 +1,17 @@
+package com.qa.Lambda;
+
+public class Calc {
+
+interface func{
+	int values(int x, int y);
+}
+
+private int method(int x, int y, func funcObj) {
+	return funcObj.values(x,y);
+}
+
+
+
+
+
+}

@@ -1,0 +1,19 @@
+package com.qa.main;
+
+public class Turtle {
+		String name = "Terry";
+		int age = 45;
+		boolean plastic = false;
+		float length = 0.7f;
+		boolean genderM = true;
+		
+	
+	
+		public void size() {
+			if (length > 0.8) {
+				System.out.println( name + "is a smol tortle");
+		} else {
+			System.out.println( name + "is a long long tortle");
+		}
+}
+}

@@ -1,0 +1,29 @@
+package vendormachine.users.util;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+public class WalletTEST {
+
+
+Wallet mywallet = new Wallet();
+
+
+@Test
+public void walletTest(){
+	 
+	assertTrue(mywallet instanceof Wallet, "It is a Wallet");
+}
+
+	
+}
+
+
+@AfterEach
+
+
+@AfterAll
+
+    }
+}

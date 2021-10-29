@@ -1,0 +1,12 @@
+package com.qa.main;
+
+import com.qa.exer.Calculator;
+
+public class Runner {
+
+	public void divideBy0() {
+	System.out.println(Calculator.calcDiv(5, 0));	
+	
+	}
+	
+}

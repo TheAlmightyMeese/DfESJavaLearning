@@ -1,0 +1,25 @@
+package com.qa.day3;
+
+public class ForLoop {
+
+	public static void Flow1() {
+		
+			for (
+					int A = 100;
+					A <= 200;
+					A++)
+				System.out.println(A);
+	}
+	public static void Flow2() {
+		for (
+				int A = 100;
+				A >= 200; A++)
+				 if (A % 2 == 0) {
+				System.out.println("-");
+				 }
+				 else {
+					 System.out.println("*");
+				 }
+				 	}
+	
+}

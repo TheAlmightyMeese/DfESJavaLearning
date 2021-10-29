@@ -1,0 +1,20 @@
+package com.qa.main;
+
+import com.qa.Npc.NPC;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		
+		NPC Commonfolk = new NPC("Joe", 2, "Commoner","Spoon","Common Clothes", true);
+		NPC MainSidekick = new NPC("Hiro", 9001, "Best Friend", "+5 GreatSword of Fireball", "Full Reflect Plate", true);		
+		
+		System.out.println(Commonfolk.getHP());
+		System.out.println(MainSidekick.getWeapon());
+		System.out.println(MainSidekick.setHP(0));
+		System.out.println(MainSidekick.getHP());
+		
+		
+	}
+}

@@ -1,0 +1,12 @@
+package com.qa.main;
+
+import com.qa.resources.Tester;
+
+public class Runner {
+
+ public static void main(String[] args) {
+
+	 Tester();
+	 
+}
+}

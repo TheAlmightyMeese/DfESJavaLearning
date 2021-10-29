@@ -1,0 +1,17 @@
+package com.qa.main;
+
+import com.qa.Npc.NPC;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		
+		NPC Commonfolk = new NPC();
+		Commonfolk.statusCheck();
+		
+		
+		
+		
+	}
+}

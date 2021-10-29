@@ -1,0 +1,21 @@
+package com.qa.main;
+
+import com.qa.enumlist.Dealer;
+
+public class Runner {
+public static void main(String[] args) {
+	
+	Dealer bob = new Dealer();
+	
+	
+	for (int y = 1; y <= 10; y++) {
+		System.out.println(bob.draw());
+	}
+System.out.println(bob.draw());
+
+
+	
+	
+}
+	
+}
